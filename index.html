@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mini RPG</title>
+    <title>Oakrest RPG</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>⚔️ Mini RPG</h1>
+    <h1>⚔️ Oakrest RPG</h1>
 
-    <div id="player">
-        <h2>Player</h2>
-        <p>Level: <span id="level">1</span></p>
-        <p>HP: <span id="playerHP">100</span></p>
-        <p>XP: <span id="xp">0</span></p>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+    <div id="ui">
+        <div id="stats"></div>
+        <div id="choices"></div>
+        <div id="log"></div>
     </div>
 
-    <div id="enemy">
-        <h2>Enemy</h2>
-        <p>HP: <span id="enemyHP">50</span></p>
-    </div>
+    <script src="game.js"></script>
+    <script src="scenes.js"></script>
+    <script src="combat.js"></script>
 
-    <button onclick="attack()">Attack</button>
-
-    <p id="log"></p>
-
-    <script src="script.js"></script>
 </body>
 </html>
