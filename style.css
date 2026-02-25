@@ -1,16 +1,22 @@
 body {
-    background-color: #111;
+    background: black;
     color: white;
-    font-family: Arial;
+    font-family: monospace;
     text-align: center;
 }
 
-div {
-    margin: 20px;
-    padding: 15px;
-    border: 1px solid white;
+canvas {
+    border: 2px solid white;
+    background: black;
 }
+
+#ui {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
 button {
-    padding: 10px 20px;
-    font-size: 18px;
+    margin: 5px;
+    padding: 5px 10px;
 }
