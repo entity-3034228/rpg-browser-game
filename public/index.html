@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1>⚔️ Mini RPG</h1>
+
+    <div id="player">
+        <h2>Player</h2>
+        <p>Level: <span id="level">1</span></p>
+        <p>HP: <span id="playerHP">100</span></p>
+        <p>XP: <span id="xp">0</span></p>
+    </div>
+
+    <div id="enemy">
+        <h2>Enemy</h2>
+        <p>HP: <span id="enemyHP">50</span></p>
+    </div>
+
+    <button onclick="attack()">Attack</button>
+
+    <p id="log"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
